@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using NUnit.Framework.Constraints;
 
 namespace FizzBuzzCalcaulatorTests
 {
@@ -21,7 +20,7 @@ namespace FizzBuzzCalcaulatorTests
         [TestCase(99, "Fizz")]
         public void CalcultateIfNumberShouldBeFizzOrBuzzOrFizzBuzz(int number, string expectedFizzBuzz)
         {
-            var actualFizzBuzz = FizzBuzzCalculator.FizzBuzzCalculator.Convert(number);
+            var actualFizzBuzz = FizzBuzzCalculator.FizzBuzz.Convert(number);
 
             Assert.That(actualFizzBuzz, Is.EqualTo(expectedFizzBuzz));
         }

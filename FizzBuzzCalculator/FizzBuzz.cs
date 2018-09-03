@@ -1,6 +1,6 @@
 ﻿namespace FizzBuzzCalculator
 {
-    public class FizzBuzzCalculator
+    public class FizzBuzz
     {
         public static string Convert(int number)
         {
