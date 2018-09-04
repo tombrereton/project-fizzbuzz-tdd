@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzCalculator", "FizzB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzCalcaulatorTests", "FizzBuzzCalcaulatorTests\FizzBuzzCalcaulatorTests.csproj", "{BB1721BC-5770-45AA-B76E-553E202E4BA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzRunner", "FizzBuzzRunner\FizzBuzzRunner.csproj", "{61F64049-7A1D-4558-BA00-3DE878ACCDFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzRunner", "FizzBuzzRunner\FizzBuzzRunner.csproj", "{61F64049-7A1D-4558-BA00-3DE878ACCDFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
